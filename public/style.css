@@ -4,7 +4,6 @@
   box-sizing: border-box;
   /* margin: 0;
   padding: 0; */
-
 }
 
 body {
@@ -88,4 +87,31 @@ form button:hover {
   background: #fffaf0;
   border-color: #fffaf0;
   color: #012222;
+}
+
+form button:active {
+  transform: scale(0.98);
+}
+
+form a {
+  color: #fffaf0;
+  text-decoration: none;
+  display: block;
+  margin: 1rem 0;
+  text-align: center;
+  transition: color 0.3s ease-in;
+}
+
+form a:hover {
+  color: #ff4500;
+}
+
+.error {
+  color: #c11e1e;
+}
+
+#form-errors {
+  margin: 1rem;
+  list-style: disc;
+  color: #c11e1e
 }
