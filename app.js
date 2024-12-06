@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="public/billy.png">
-  <link rel="stylesheet" href="public/style.css">
+  <link rel="icon" type="image/png" href="/billy.png">
+  <link rel="stylesheet" href="/style.css">
   <title>HTMX Login</title>
 </head>
 <body>
