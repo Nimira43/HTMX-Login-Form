@@ -42,3 +42,11 @@ body {
   text-align: center; 
   margin: 20px;
 }
+
+form {
+  width: 90%;
+  max-width: 40rem;
+  background-color: red;
+  padding: 3rem 4rem;
+  margin: 5rem auto;
+}
